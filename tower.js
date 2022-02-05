@@ -6,6 +6,9 @@ let pegs = [];
 let diskArray = []; // this stores the disks
 const game = document.getElementById('game');
 
+document.getElementById("makemove").disabled = true;
+document.getElementById("autorun").disabled = true;
+
 function plotAll(pegMap) {
   pegArray.map((peg, pegindex) => {
     // loop over all pegs
@@ -81,7 +84,6 @@ function initializeDisks(pegMap) {
 
 function makeMove() {
   if (counter == 0) {
-    nDisks = document.getElementById("numDisk").value;
     initialize(nDisks, pegMap);
     moveDisks(nDisks, 'A', 'C', 'B');
     initializeDisks(pegHist[0]);
@@ -103,6 +105,14 @@ function autoRun() {
 }
 
 function load() {
+  nDisks = document.getElementById("numDisk").value;
+  if (nDisks < 2 || nDisks > 10)
+  {
+    alert('# of Disks must be between 2 and 10');
+    return;
+  }
+  document.getElementById("makemove").disabled = false;
+  document.getElementById("autorun").disabled = false;
   makeMove();
   document.getElementById("load").disabled = true;
 }
