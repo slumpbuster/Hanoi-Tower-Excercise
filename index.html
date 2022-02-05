@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="userEntry">
+      <label> # of Disks? </label><input type="number" id="numDisk" value="2" min="2" max="10" required width="60px;">
+      <button onclick="load()" id="load">Load Disks</button>
+      <br>
+      <button onclick="makeMove()" id="makemove">Make Move</button>
+      <button onclick="autoRun()" id="autorun">Auto Run</button>
+      <button onclick="location.reload()()" id="autorun">Start Over</button>
+    </div>
+    <div class="game" id="game"></div>
+
+    <script src="./hanoi.js"></script>
+    <script src="./tower.js"></script>
+  </body>
+</html>
