@@ -33,12 +33,14 @@ Originally, the example had five disks. The exercise was to change it to be a no
 - Space out the pegs further, after 8 disks, the disks blend together when disk 9 & 8 are in side by side pegs
 - Randomize the color of disks to give a better visualization of what disk is being moved
 
+---------
+
 ## Files 
-- **/HanoiTower.jpg** - Used in the Readme file 
-- **/index.html** - Start-up file to be opened by browse 
-- **/styles.css** - Stylesheet file that positions objects, controls text, colors, and layout
-- **/tower.js** - Javascript file manipulating what is occuring in the browser 
-- **/hanoi.js** - Javascript file that builds the pegs and disks
+- **/images/HanoiTower.jpg** - Used in the Readme file 
+- **index.html** - Start-up file to be opened by browse 
+- **styles.css** - Stylesheet file that positions objects, controls text, colors, and layout
+- **tower.js** - Javascript file manipulating what is occuring in the browser 
+- **hanoi.js** - Javascript file that builds the pegs and disks
 
 ---------
 
