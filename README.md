@@ -1,5 +1,5 @@
 # Hanoi Tower
-# <img src="./images/HanoiTower.png" height="200px" width="600px"/>
+<img src="./images/HanoiTower.png" height="200px" width="600px"/>
 
 ## Description 
 The Tower of Hanoi was a famous problem posed by a mathematician in 1883,
