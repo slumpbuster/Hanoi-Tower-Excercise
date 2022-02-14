@@ -6,8 +6,6 @@ The Tower of Hanoi was a famous problem posed by a mathematician in 1883,
 The "puzzle" is to move all the disks from the left hand post to the right hand post, only moving the disks one at a time and a bigger disk can never be placed on a smaller disk.
 Originally, the example had five disks. The exercise was to change it to be a non-fixed disk limit by adding an input control.
 
----------
-
 ## Purpose 
 This was done as an assignment in the MIT course - Full Stack Development with Mern
 
@@ -22,8 +20,6 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 
 ## Installation 
 - Clone this repository to your local machine
-
----------
 
 ## How to Run 
 - Browse to the directory where you cloned this repository
@@ -44,8 +40,6 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 - 2022-02-05: Added check for # of disks: >2 *1 is pointless / <10 *your machine if older will thank me
 - 2022-02-05: Enabling/Disabling buttons based on what should be allowed
 
----------
-
 ## Roadmap of Future Improvements
 - Space out the pegs further, after 8 disks, the disks blend together when disk 9 & 8 are in side by side pegs
 - Randomize the color of disks to give a better visualization of what disk is being moved
@@ -63,8 +57,6 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 
 ## Contributing 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----------
 
 ## License
 [The MIT License (MIT)](https://github.com/slumpbuster/Hanoi-Tower-Excercise/blob/main/LICENSE)
