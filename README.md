@@ -48,7 +48,7 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 
 ## Files 
 - **/images/HanoiTower.jpg** - Used in the Readme file 
-- **index.html** - Start-up file to be opened by browse 
+- **index.html** - Start-up file to be opened by browser
 - **styles.css** - Stylesheet file that positions objects, controls text, colors, and layout
 - **tower.js** - Javascript file manipulating what is occuring in the browser 
 - **hanoi.js** - Javascript file that builds the pegs and disks
